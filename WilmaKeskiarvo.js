@@ -11,5 +11,5 @@ $(document).ready(function(){
 		}
 	});
 	keskiarvo = keskiarvo / arvosanoja;
-	console.log(keskiarvo.toFixed(2));
+	$("div#l-content").append("<h3>Keskiarvo: " + keskiarvo.toFixed(2) + "</h3>");
 });
