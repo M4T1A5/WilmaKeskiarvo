@@ -11,5 +11,5 @@ $(document).ready(function(){
 		}
 	});
 	keskiarvo = keskiarvo / arvosanoja;
-	console.log(keskiarvo);
+	console.log(keskiarvo.toFixed(2));
 });
