@@ -15,6 +15,6 @@ $(document).ready(function(){
 		$("#keskiarvo").text("Keskiarvo: " + keskiarvo.toFixed(2));
 	}
 	else{
-	$("div#l-content").append("<h4 id='#keskiarvo'>Keskiarvo: " + keskiarvo.toFixed(2) + "</h4>");
+	$("div#l-content").append("<h4 id='keskiarvo'>Keskiarvo: " + keskiarvo.toFixed(2) + "</h4>");
 	}
 });
