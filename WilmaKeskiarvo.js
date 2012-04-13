@@ -11,7 +11,7 @@ $(document).ready(function(){
 		}
 	});
 	keskiarvo = keskiarvo / arvosanoja;
-	if ($("#keskiarvo")){
+	if ($("#keskiarvo").length > 0){
 		$("#keskiarvo").text("Keskiarvo: " + keskiarvo.toFixed(2));
 	}
 	else{
