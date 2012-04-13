@@ -1,5 +1,5 @@
 $(document).ready(function(){
 	$("tr").each(function(){
-		$(this + ":nth-child(2)").css("background", "red");
+		$(this).eq(2).css("background", "red");
 	});
 });
